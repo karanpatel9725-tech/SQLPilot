@@ -1,21 +1,21 @@
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Virtual environments
-env/
-venv/
+# Environments
 palm_env_new/
-
-# Credentials (VERY IMPORTANT)
+venv/
 .env
+*.env
 
-# Streamlit cache
+# Streamlit config
 .streamlit/
 
-# Jupyter notebook checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
-# OS junk
-Thumbs.db
+# OS files
 .DS_Store
+Thumbs.db
